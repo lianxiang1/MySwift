@@ -14,6 +14,22 @@
 		833013601F43E21D0046C27D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8330135E1F43E21D0046C27D /* LaunchScreen.storyboard */; };
 		8330136B1F43E21D0046C27D /* swiftClassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8330136A1F43E21D0046C27D /* swiftClassTests.swift */; };
 		833013761F43E21D0046C27D /* swiftClassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833013751F43E21D0046C27D /* swiftClassUITests.swift */; };
+		833013841F43E28F0046C27D /* NamedShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833013831F43E28F0046C27D /* NamedShape.swift */; };
+		833013861F43E4550046C27D /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833013851F43E4550046C27D /* Square.swift */; };
+		833013881F43E89F0046C27D /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833013871F43E89F0046C27D /* Circle.swift */; };
+		833831B91F4678A60013929C /* ProgramTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833831B81F4678A60013929C /* ProgramTabViewController.swift */; };
+		833831BC1F4691540013929C /* ProgramCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833831BA1F4691540013929C /* ProgramCell.swift */; };
+		833831BD1F4691540013929C /* ProgramCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 833831BB1F4691540013929C /* ProgramCell.xib */; };
+		833831BF1F46D48E0013929C /* EnumStructViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833831BE1F46D48E0013929C /* EnumStructViewController.swift */; };
+		8365B2811F4C630500789C50 /* UITestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8365B27F1F4C630500789C50 /* UITestViewController.swift */; };
+		8365B2821F4C630500789C50 /* UITestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8365B2801F4C630500789C50 /* UITestViewController.xib */; };
+		8365B2841F4C676000789C50 /* 5E91297C2CFDF32F0FF8065266CB1266.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8365B2831F4C676000789C50 /* 5E91297C2CFDF32F0FF8065266CB1266.jpg */; };
+		8365B2861F4C67E900789C50 /* u=3362396758,3690229821&fm=26&gp=0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8365B2851F4C67E900789C50 /* u=3362396758,3690229821&fm=26&gp=0.jpg */; };
+		8365B2881F4C691A00789C50 /* timg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8365B2871F4C691A00789C50 /* timg.jpg */; };
+		836698211F47FF84007348A8 /* ProtocolAddExternViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836698201F47FF84007348A8 /* ProtocolAddExternViewController.swift */; };
+		836F52D01F4AC389009F30F4 /* EerrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836F52CF1F4AC389009F30F4 /* EerrorViewController.swift */; };
+		8379D5211F4585D900F776DC /* EquilateralTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8379D5201F4585D900F776DC /* EquilateralTriangle.swift */; };
+		8379D5231F4588D500F776DC /* TriangleAndSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8379D5221F4588D500F776DC /* TriangleAndSquare.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +63,22 @@
 		833013711F43E21D0046C27D /* swiftClassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftClassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		833013751F43E21D0046C27D /* swiftClassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftClassUITests.swift; sourceTree = "<group>"; };
 		833013771F43E21D0046C27D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		833013831F43E28F0046C27D /* NamedShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NamedShape.swift; path = ../NamedShape.swift; sourceTree = "<group>"; };
+		833013851F43E4550046C27D /* Square.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Square.swift; path = ../Square.swift; sourceTree = "<group>"; };
+		833013871F43E89F0046C27D /* Circle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Circle.swift; path = ../Circle.swift; sourceTree = "<group>"; };
+		833831B81F4678A60013929C /* ProgramTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramTabViewController.swift; sourceTree = "<group>"; };
+		833831BA1F4691540013929C /* ProgramCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramCell.swift; sourceTree = "<group>"; };
+		833831BB1F4691540013929C /* ProgramCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProgramCell.xib; sourceTree = "<group>"; };
+		833831BE1F46D48E0013929C /* EnumStructViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnumStructViewController.swift; sourceTree = "<group>"; };
+		8365B27F1F4C630500789C50 /* UITestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITestViewController.swift; sourceTree = "<group>"; };
+		8365B2801F4C630500789C50 /* UITestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UITestViewController.xib; sourceTree = "<group>"; };
+		8365B2831F4C676000789C50 /* 5E91297C2CFDF32F0FF8065266CB1266.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5E91297C2CFDF32F0FF8065266CB1266.jpg; sourceTree = "<group>"; };
+		8365B2851F4C67E900789C50 /* u=3362396758,3690229821&fm=26&gp=0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "u=3362396758,3690229821&fm=26&gp=0.jpg"; sourceTree = "<group>"; };
+		8365B2871F4C691A00789C50 /* timg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg.jpg; sourceTree = "<group>"; };
+		836698201F47FF84007348A8 /* ProtocolAddExternViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolAddExternViewController.swift; sourceTree = "<group>"; };
+		836F52CF1F4AC389009F30F4 /* EerrorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EerrorViewController.swift; sourceTree = "<group>"; };
+		8379D5201F4585D900F776DC /* EquilateralTriangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EquilateralTriangle.swift; path = ../EquilateralTriangle.swift; sourceTree = "<group>"; };
+		8379D5221F4588D500F776DC /* TriangleAndSquare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TriangleAndSquare.swift; path = ../TriangleAndSquare.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +129,11 @@
 		833013541F43E21D0046C27D /* swiftClass */ = {
 			isa = PBXGroup;
 			children = (
+				8365B27E1F4C62DD00789C50 /* UILearn */,
+				836F52CE1F4AC34B009F30F4 /* 错误处理 */,
+				8366981F1F47FF58007348A8 /* 协议和扩展 */,
+				833831B61F46773F0013929C /* 类 */,
+				833831B71F46773F0013929C /* 枚举结构体 */,
 				833013551F43E21D0046C27D /* AppDelegate.swift */,
 				833013571F43E21D0046C27D /* ViewController.swift */,
 				833013591F43E21D0046C27D /* Main.storyboard */,
@@ -123,6 +160,57 @@
 				833013771F43E21D0046C27D /* Info.plist */,
 			);
 			path = swiftClassUITests;
+			sourceTree = "<group>";
+		};
+		833831B61F46773F0013929C /* 类 */ = {
+			isa = PBXGroup;
+			children = (
+				833013831F43E28F0046C27D /* NamedShape.swift */,
+				833013851F43E4550046C27D /* Square.swift */,
+				833013871F43E89F0046C27D /* Circle.swift */,
+				8379D5201F4585D900F776DC /* EquilateralTriangle.swift */,
+				8379D5221F4588D500F776DC /* TriangleAndSquare.swift */,
+				833831BA1F4691540013929C /* ProgramCell.swift */,
+				833831BB1F4691540013929C /* ProgramCell.xib */,
+			);
+			path = "类";
+			sourceTree = "<group>";
+		};
+		833831B71F46773F0013929C /* 枚举结构体 */ = {
+			isa = PBXGroup;
+			children = (
+				833831B81F4678A60013929C /* ProgramTabViewController.swift */,
+				833831BE1F46D48E0013929C /* EnumStructViewController.swift */,
+			);
+			path = "枚举结构体";
+			sourceTree = "<group>";
+		};
+		8365B27E1F4C62DD00789C50 /* UILearn */ = {
+			isa = PBXGroup;
+			children = (
+				8365B2871F4C691A00789C50 /* timg.jpg */,
+				8365B2851F4C67E900789C50 /* u=3362396758,3690229821&fm=26&gp=0.jpg */,
+				8365B2831F4C676000789C50 /* 5E91297C2CFDF32F0FF8065266CB1266.jpg */,
+				8365B27F1F4C630500789C50 /* UITestViewController.swift */,
+				8365B2801F4C630500789C50 /* UITestViewController.xib */,
+			);
+			path = UILearn;
+			sourceTree = "<group>";
+		};
+		8366981F1F47FF58007348A8 /* 协议和扩展 */ = {
+			isa = PBXGroup;
+			children = (
+				836698201F47FF84007348A8 /* ProtocolAddExternViewController.swift */,
+			);
+			path = "协议和扩展";
+			sourceTree = "<group>";
+		};
+		836F52CE1F4AC34B009F30F4 /* 错误处理 */ = {
+			isa = PBXGroup;
+			children = (
+				836F52CF1F4AC389009F30F4 /* EerrorViewController.swift */,
+			);
+			path = "错误处理";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +320,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8365B2881F4C691A00789C50 /* timg.jpg in Resources */,
+				833831BD1F4691540013929C /* ProgramCell.xib in Resources */,
+				8365B2861F4C67E900789C50 /* u=3362396758,3690229821&fm=26&gp=0.jpg in Resources */,
+				8365B2841F4C676000789C50 /* 5E91297C2CFDF32F0FF8065266CB1266.jpg in Resources */,
 				833013601F43E21D0046C27D /* LaunchScreen.storyboard in Resources */,
 				8330135D1F43E21D0046C27D /* Assets.xcassets in Resources */,
+				8365B2821F4C630500789C50 /* UITestViewController.xib in Resources */,
 				8330135B1F43E21D0046C27D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +352,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				833013881F43E89F0046C27D /* Circle.swift in Sources */,
+				8379D5211F4585D900F776DC /* EquilateralTriangle.swift in Sources */,
+				833831BF1F46D48E0013929C /* EnumStructViewController.swift in Sources */,
+				836698211F47FF84007348A8 /* ProtocolAddExternViewController.swift in Sources */,
+				833013861F43E4550046C27D /* Square.swift in Sources */,
+				8379D5231F4588D500F776DC /* TriangleAndSquare.swift in Sources */,
+				833831BC1F4691540013929C /* ProgramCell.swift in Sources */,
+				8365B2811F4C630500789C50 /* UITestViewController.swift in Sources */,
+				833013841F43E28F0046C27D /* NamedShape.swift in Sources */,
 				833013581F43E21D0046C27D /* ViewController.swift in Sources */,
 				833013561F43E21D0046C27D /* AppDelegate.swift in Sources */,
+				833831B91F4678A60013929C /* ProgramTabViewController.swift in Sources */,
+				836F52D01F4AC389009F30F4 /* EerrorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +611,7 @@
 				8330137C1F43E21D0046C27D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8330137D1F43E21D0046C27D /* Build configuration list for PBXNativeTarget "swiftClassTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +620,7 @@
 				8330137F1F43E21D0046C27D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		833013801F43E21D0046C27D /* Build configuration list for PBXNativeTarget "swiftClassUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +629,7 @@
 				833013821F43E21D0046C27D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
