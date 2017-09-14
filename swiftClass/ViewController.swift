@@ -177,6 +177,7 @@ class ViewController: UIViewController {
         // 2 通过指定键的值为 nil 来移除 key-value（键-值）对。
         dic[3] = nil
         print(dic)
+        
         //遍历字典
         //1 for in
         for (ky,vle) in dic2 {
