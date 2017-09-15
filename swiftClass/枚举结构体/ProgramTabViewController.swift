@@ -17,6 +17,24 @@ class ProgramTabViewController: UIViewController, UITableViewDelegate,UITableVie
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "语法"
+        //continue
+        let puzzleI = "great minds think alike"
+        var puzzleO = ""
+        for character in puzzleI.characters {
+            switch character {
+            case "a","e","i","o","u"," ":
+                
+                continue
+            default:
+                puzzleO.append(character)
+                
+            }
+            
+        }
+        
+        print(puzzleO)
+        
+        
         self.addTableVew()
         // Do any additional setup after loading the view.
     }
