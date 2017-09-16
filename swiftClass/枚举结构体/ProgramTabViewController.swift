@@ -33,8 +33,6 @@ class ProgramTabViewController: UIViewController, UITableViewDelegate,UITableVie
         }
         
         print(puzzleO)
-        
-        
         self.addTableVew()
         // Do any additional setup after loading the view.
     }
@@ -52,7 +50,7 @@ class ProgramTabViewController: UIViewController, UITableViewDelegate,UITableVie
 //        self.tableView.register(nib, forCellReuseIdentifier: self.cellReuseIndetifier)
         self.view.addSubview(self.tableView)
         
-        
+    
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
