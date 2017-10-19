@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8326A9221F8EF7CE00D67DFC /* FuncPromViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8326A9211F8EF7CE00D67DFC /* FuncPromViewController.swift */; };
 		833013561F43E21D0046C27D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833013551F43E21D0046C27D /* AppDelegate.swift */; };
 		833013581F43E21D0046C27D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833013571F43E21D0046C27D /* ViewController.swift */; };
 		8330135B1F43E21D0046C27D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 833013591F43E21D0046C27D /* Main.storyboard */; };
@@ -50,6 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8326A9211F8EF7CE00D67DFC /* FuncPromViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuncPromViewController.swift; sourceTree = "<group>"; };
 		833013521F43E21D0046C27D /* swiftClass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftClass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		833013551F43E21D0046C27D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		833013571F43E21D0046C27D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8326A91E1F8EF75F00D67DFC /* 函数 */ = {
+			isa = PBXGroup;
+			children = (
+				8326A9211F8EF7CE00D67DFC /* FuncPromViewController.swift */,
+			);
+			path = "函数";
+			sourceTree = "<group>";
+		};
 		833013491F43E21D0046C27D = {
 			isa = PBXGroup;
 			children = (
@@ -129,6 +139,7 @@
 		833013541F43E21D0046C27D /* swiftClass */ = {
 			isa = PBXGroup;
 			children = (
+				8326A91E1F8EF75F00D67DFC /* 函数 */,
 				8365B27E1F4C62DD00789C50 /* UILearn */,
 				836F52CE1F4AC34B009F30F4 /* 错误处理 */,
 				8366981F1F47FF58007348A8 /* 协议和扩展 */,
@@ -276,20 +287,23 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = lianxiangpro;
 				TargetAttributes = {
 					833013511F43E21D0046C27D = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					833013651F43E21D0046C27D = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 833013511F43E21D0046C27D;
 					};
 					833013701F43E21D0046C27D = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 833013511F43E21D0046C27D;
 					};
@@ -356,6 +370,7 @@
 				8379D5211F4585D900F776DC /* EquilateralTriangle.swift in Sources */,
 				833831BF1F46D48E0013929C /* EnumStructViewController.swift in Sources */,
 				836698211F47FF84007348A8 /* ProtocolAddExternViewController.swift in Sources */,
+				8326A9221F8EF7CE00D67DFC /* FuncPromViewController.swift in Sources */,
 				833013861F43E4550046C27D /* Square.swift in Sources */,
 				8379D5231F4588D500F776DC /* TriangleAndSquare.swift in Sources */,
 				833831BC1F4691540013929C /* ProgramCell.swift in Sources */,
@@ -429,7 +444,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -437,7 +454,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -480,7 +501,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -488,7 +511,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -522,7 +549,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lianxiang.swiftClass;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -534,7 +561,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lianxiang.swiftClass;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -547,7 +574,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lianxiang.swiftClassTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swiftClass.app/swiftClass";
 			};
 			name = Debug;
@@ -561,7 +588,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lianxiang.swiftClassTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swiftClass.app/swiftClass";
 			};
 			name = Release;
@@ -574,7 +601,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lianxiang.swiftClassUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = swiftClass;
 			};
 			name = Debug;
@@ -587,7 +614,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lianxiang.swiftClassUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = swiftClass;
 			};
 			name = Release;

@@ -13,13 +13,19 @@ class UITestViewController: UIViewController {
     override func viewDidLoad() {
         
         super.viewDidLoad()
+        
+  let navH = UIApplication.shared.statusBarFrame.height
+        + (self.navigationController?.navigationBar.frame.size.height)!
+        print(UIApplication.shared.statusBarFrame.height)
+        print(self.navigationController?.navigationBar.frame ?? 64)
+        
         self.title = "UI"
         let namebutton:UIButton = UIButton(type:.contactAdd)
-        namebutton.frame = CGRect(x:10,y:70,width:200,height:30)
+        namebutton.frame = CGRect(x:10,y:navH,width:200,height:30)
         namebutton.setTitle("按钮", for:.normal)
         self.view .addSubview(namebutton)
         //对于Custom定制类型按钮，代码可简化为
-        let button = UIButton(frame:CGRect(x:10,y:110,width:200,height:30))
+        let button = UIButton(frame:CGRect(x:10,y:namebutton.frame.maxY,width:200,height:30))
         button.setTitle("custombtn", for: .normal)
         button.setTitleColor(UIColor.red, for: .normal)
         //按钮文字阴影颜色的设置
@@ -42,7 +48,7 @@ class UITestViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    func btnTap(_ button:UIButton){
+    @objc func btnTap(_ button:UIButton){
         
         print(button.title(for: .normal) ?? "custom")
         

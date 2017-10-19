@@ -11,7 +11,7 @@ import UIKit
 class ProgramTabViewController: UIViewController, UITableViewDelegate,UITableViewDataSource {
     let cellReuseIndetifier:String = "ProgramCell"
     var tableView: UITableView!
-    var dataArr = ["枚举结构体","协议和扩展","错误处理"]
+    var dataArr = ["枚举结构体","协议和扩展","错误处理","函数"]
     
 
     override func viewDidLoad() {
@@ -92,6 +92,10 @@ class ProgramTabViewController: UIViewController, UITableViewDelegate,UITableVie
         }else if indexPath.row==2 {
             
             self.navigationController?.show(EerrorViewController(), sender: nil)
+            
+        }else if indexPath.row==3 {
+            
+            self.navigationController?.show(FuncPromViewController(), sender: nil)
             
         }
         
